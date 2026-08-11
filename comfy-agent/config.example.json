@@ -1,0 +1,28 @@
+{
+  "comfy_url": "http://127.0.0.1:8188",
+
+  "remote": "origin",
+  "branch": "claude/test-functionality-2fkj05",
+  "push": true,
+
+  "poll_interval": 20,
+  "stall_seconds": 300,
+  "history_items": 5,
+  "max_alerts": 50,
+
+  "enable_websocket": true,
+
+  "allowed_actions": [
+    "status",
+    "queue",
+    "interrupt",
+    "clear_queue",
+    "delete",
+    "free",
+    "history",
+    "object_info"
+  ],
+
+  "git_user_name": "comfy-agent",
+  "git_user_email": "comfy-agent@localhost"
+}

@@ -1,0 +1,5 @@
+comfy-agent/config.json
+__pycache__/
+*.pyc
+.venv/
+venv/
