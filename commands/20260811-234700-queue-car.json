@@ -1,0 +1,10 @@
+{
+  "action": "queue",
+  "params": {
+    "workflow_file": "workflows/example-txt2img.json",
+    "overrides": {
+      "6.inputs.text": "a red sports car at night, cinematic lighting",
+      "3.inputs.seed": 987654
+    }
+  }
+}
